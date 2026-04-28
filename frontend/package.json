@@ -9,6 +9,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "build:android": "cd android && ./gradlew assembleRelease"
   },
   "dependencies": {
